@@ -100,7 +100,7 @@ public class InsertHolidayUtil {
       System.out.println("all :" + holidays.size());
   }
   
-  private static List<Date> dateSplit(java.util.Date start, Date end)
+  public static List<Date> dateSplit(java.util.Date start, Date end)
 	        throws Exception {
 	    if (!start.before(end))
 	        throw new Exception("开始时间应该在结束时间之后");

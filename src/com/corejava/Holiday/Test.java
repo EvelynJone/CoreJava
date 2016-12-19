@@ -5,10 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 /**
  * Class Name : Test<BR>
@@ -21,31 +18,21 @@ import java.util.List;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println(getMomo("0"));
-    }
-    @Override
-    public void maintainData(int year) {
+        int year = 2016;
         try {
             Date start = DateTimeUtil.parse(year+"0101","yyyyMMdd");
             Date end = DateTimeUtil.parse(year+"1231","yyyyMMdd");
-            List<Date> dates = dateSplit(start,end);
+            List<Date> dates = InsertHolidayUtil.dateSplit(start,end);
             for (Date date : dates) {
                 //检查具体日期是否为节假日，工作日对应结果为 0, 休息日对应结果为 1, 节假日对应的结果为 2
                 String result = sendHttp("http://www.easybots.cn/api/holiday.php?d="+DateTimeUtil.format(date,"yyyyMMdd"), null, "utf-8");
                 result = replaceStr(result, new String[]{"{", "}", "\""});
                 String[] results = result.split(":");
-                TDateDTO dto = new TDateDTO();
-                Calendar calendar = Calendar.getInstance();
-                calendar.setTime(date);
-                dto.setTheYear(""+calendar.get(Calendar.YEAR));
-                dto.setTheMonth(""+calendar.get(Calendar.MONTH));
-                dto.setIsHolid(results[1] == "0" ? "0" : "1");
-                dto.setTheDay(""+calendar.get(Calendar.DAY_OF_MONTH));
-                dto.setMemo(getMomo(results[1]));
-                save(dto);
+                System.out.println(Arrays.toString(results));
+                System.out.println(getMomo(results[1]));
             }
         } catch (Exception e) {
-            throw new ServiceException(e.getMessage());
+            throw new RuntimeException(e.getMessage());
         }
     }
 
@@ -61,26 +48,11 @@ public class Test {
     }
     private static String replaceStr(String dest,String[] str) {
         for (String temp : str) {
-            dest.replace(temp,"");
+            dest = dest.replace(temp,"");
         }
         return dest;
     }
 
-    private static List<Date> dateSplit(Date start, Date end)
-            throws Exception {
-        if (!start.before(end))
-            throw new Exception("开始时间应该在结束时间之后");
-        Long spi = end.getTime() - start.getTime();
-        Long step = spi / (24 * 60 * 60 * 1000);// 相隔天数
-
-        List<Date> dateList = new ArrayList<Date>();
-        dateList.add(end);
-        for (int i = 1; i <= step; i++) {
-            dateList.add(new Date(dateList.get(i - 1).getTime()
-                    - (24 * 60 * 60 * 1000)));// 比上一天减一
-        }
-        return dateList;
-    }
 
     public static String sendHttp(String url, String xmlStr, String readerEncoding) throws Exception {
         StringBuffer retu = new StringBuffer("");
