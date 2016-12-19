@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e18e37c-12fd-4f22-87fd-93b13cf6938e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/readme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/Holiday/Days.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/Holiday/InsertHolidayUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/Holiday/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/Holiday/holiday.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/MBean/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/MBean/CarMBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/MBean/StandardAgent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch14/thread/Thread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch2/start/ImageViewer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch2/start/WelcomeApplet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch2/start/java.policy.applet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/BigIntegerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/CalendarTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/Change.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/EmployeeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/FirstSample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/InputTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch3/Operator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch4/Manage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch4/NoMain.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch4/ParamTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/CopyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/Employee.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/EnumTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/Manager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/MethodPointerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/ObjectAnalyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/ObjectAnalyzerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/PersonTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/ReflectionTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/Size.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch5/Student.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/CloneTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/EmployeeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/InnerClassTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/Moveable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/Powered.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/TalkingClock.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/TimePrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/corejava/ch6/TimePrinterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CoreJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,18 +69,132 @@
     <favorites_list name="CoreJava" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="readme" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/readme">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TalkingClock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/TalkingClock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.091019414">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="holiday.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/holiday.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-33.57143">
+              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6666667">
+              <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#2609#2615#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertHolidayUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/InsertHolidayUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1397#1403#0" expanded="true" />
+                <element signature="e#4150#4156#0" expanded="true" />
+                <element signature="e#5451#5457#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateFormat.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.7/src.zip!/java/text/DateFormat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Days.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/Days.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/CopyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/ReflectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +208,52 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/readme" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch14/thread/Thread.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch2/start/ImageViewer.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch2/start/WelcomeApplet.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/firstSample.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/FirstSample.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/Constana.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/InputTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/Operator.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/CalendarTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/BigIntegerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/Change.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch3/ParamTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/package-info.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch4/ParamTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch4/Manage.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch4/NoMain.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/Person.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/Manager.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/MBean/CarMBean.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/MBean/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/MBean/StandardAgent.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/Size.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/EnumTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/ReflectionTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/ObjectAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/ObjectAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/MethodPointerTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/CopyTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/Moveable.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/Powered.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/EmployeeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/CloneTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch5/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/TimePrinterTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/TimePrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/TalkingClock.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/ch6/InnerClassTest.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/Holiday/holiday.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/Holiday/Days.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/Holiday/InsertHolidayUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/corejava/Holiday/Test.java" />
       </list>
     </option>
   </component>
@@ -57,12 +262,22 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/workTools/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\workTools\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.7" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1919" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -82,8 +297,8 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -121,6 +336,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corejava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoreJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="corejava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Holiday" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -133,8 +388,115 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="Object&#9;FILE&#9;jar://D:/Java/jdk1.7/jre/lib/rt.jar!/java/lang/Object.class&#10;Double&#9;PSI&#9;JAVA://java.lang.Double&#10;system&#9;FILE&#9;jar://D:/Java/jdk1.7/src.zip!/java/lang/System.java&#10;Thread&#9;FILE&#9;jar://D:/Java/jdk1.7/jre/lib/rt.jar!/java/lang/Thread.class&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;Arrays&#9;FILE&#9;jar://D:/Java/jdk1.7/src.zip!/java/util/Arrays.java&#10;Obj&#9;FILE&#9;jar://D:/Java/jdk1.7/src.zip!/java/lang/Object.java&#10;Hashma&#9;FILE&#9;jar://D:/Java/jdk1.7/src.zip!/java/util/HashMap.java&#10;Iterat&#9;PSI&#9;JAVA://java.util.Iterator&#10;List&#9;PSI&#9;JAVA://java.awt.List&#10;Math&#9;PSI&#9;JAVA://java.lang.Math&#10;Sys&#9;FILE&#9;jar://D:/Java/jdk1.7/src.zip!/java/lang/System.java&#10;Character&#9;PSI&#9;JAVA://java.lang.Character&#10;public&#9;FILE&#9;jar://D:/Java/jdk1.7/src.zip!/org/omg/CORBA/PUBLIC_MEMBER.java&#10;Switch&#9;PSI&#9;JAVA://com.sun.java.util.jar.pack.Instruction.Switch&#10;Itera&#9;PSI&#9;JAVA://java.lang.Iterable&#10;for&#9;PSI&#9;JAVA://com.sun.org.apache.xalan.internal.xsltc.compiler.ForEach" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../trunk" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Intellij Idea\CoreJava\src\com\corejava\ch2\start" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="false" name="InnerClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.corejava.ch6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.corejava.ch6.InnerClassTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReflectionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.corejava.ch5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.corejava.ch5.ReflectionTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="holiday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.corejava.Holiday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.corejava.Holiday.holiday" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InsertHolidayUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.corejava.Holiday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.corejava.Holiday.InsertHolidayUtil" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.corejava.Holiday.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.corejava.Holiday.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CoreJava" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -538,6 +900,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -552,62 +919,782 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.InnerClassTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ReflectionTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.holiday" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InsertHolidayUtil" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.InsertHolidayUtil" />
+        <item index="2" class="java.lang.String" itemvalue="Application.holiday" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ReflectionTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InnerClassTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="1e18e37c-12fd-4f22-87fd-93b13cf6938e" name="Default" comment="" />
       <created>1481591423386</created>
       <option name="number" value="Default" />
       <updated>1481591423386</updated>
-      <workItem from="1481591427694" duration="91000" />
+      <workItem from="1481591427694" duration="24681000" />
+      <workItem from="1481682020980" duration="13554000" />
+      <workItem from="1481765124464" duration="14257000" />
+      <workItem from="1481850596486" duration="12010000" />
+      <workItem from="1482109939765" duration="28297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91000" />
+    <option name="totallyTimeSpent" value="92799000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1919" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24946696" sideWeight="0.83548385" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24946696" sideWeight="0.16451614" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38238573" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.7/src.zip!/java/text/NumberFormat.java</url>
+          <line>778</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.7/src.zip!/java/text/NumberFormat.java</url>
+          <line>745</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.7/src.zip!/java/lang/Class.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="15" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/readme">
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.091019414">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1454" column="14" selection-start-line="1454" selection-start-column="14" selection-end-line="1454" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#122414#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4846#4847#0" expanded="false" />
+            <element signature="e#4886#4887#0" expanded="false" />
+            <element signature="e#5859#5860#0" expanded="false" />
+            <element signature="e#5922#5923#0" expanded="false" />
+            <element signature="e#12931#12932#0" expanded="false" />
+            <element signature="e#12983#12984#0" expanded="false" />
+            <element signature="e#18614#18615#0" expanded="false" />
+            <element signature="e#18667#18668#0" expanded="false" />
+            <element signature="e#20560#20561#0" expanded="false" />
+            <element signature="e#20604#20605#0" expanded="false" />
+            <element signature="e#21794#21795#0" expanded="false" />
+            <element signature="e#21874#21875#0" expanded="false" />
+            <element signature="e#22493#22494#0" expanded="false" />
+            <element signature="e#22535#22536#0" expanded="false" />
+            <element signature="e#22850#22851#0" expanded="false" />
+            <element signature="e#22885#22886#0" expanded="false" />
+            <element signature="e#23141#23142#0" expanded="false" />
+            <element signature="e#23181#23182#0" expanded="false" />
+            <element signature="e#29826#29827#0" expanded="false" />
+            <element signature="e#29897#29898#0" expanded="false" />
+            <element signature="e#36782#36783#0" expanded="false" />
+            <element signature="e#36848#36849#0" expanded="false" />
+            <element signature="e#47408#47409#0" expanded="false" />
+            <element signature="e#47472#47473#0" expanded="false" />
+            <element signature="e#55768#55769#0" expanded="false" />
+            <element signature="e#55812#55813#0" expanded="false" />
+            <element signature="e#56425#56426#0" expanded="false" />
+            <element signature="e#56502#56503#0" expanded="false" />
+            <element signature="e#58524#58525#0" expanded="false" />
+            <element signature="e#58561#58562#0" expanded="false" />
+            <element signature="e#62972#62973#0" expanded="false" />
+            <element signature="e#63028#63029#0" expanded="false" />
+            <element signature="e#66593#66594#0" expanded="false" />
+            <element signature="e#66631#66632#0" expanded="false" />
+            <element signature="e#70089#70090#0" expanded="false" />
+            <element signature="e#70142#70143#0" expanded="false" />
+            <element signature="e#76845#76846#0" expanded="false" />
+            <element signature="e#76904#76905#0" expanded="false" />
+            <element signature="e#81336#81337#0" expanded="false" />
+            <element signature="e#81387#81388#0" expanded="false" />
+            <element signature="e#81771#81772#0" expanded="false" />
+            <element signature="e#81820#81821#0" expanded="false" />
+            <element signature="e#93265#93266#0" expanded="false" />
+            <element signature="e#93303#93304#0" expanded="false" />
+            <element signature="e#100216#100217#0" expanded="false" />
+            <element signature="e#100271#100272#0" expanded="false" />
+            <element signature="e#106802#106803#0" expanded="false" />
+            <element signature="e#106857#106858#0" expanded="false" />
+            <element signature="e#108993#108994#0" expanded="false" />
+            <element signature="e#109020#109021#0" expanded="false" />
+            <element signature="e#113752#113753#0" expanded="false" />
+            <element signature="e#113814#113815#0" expanded="false" />
+            <element signature="e#114321#114322#0" expanded="false" />
+            <element signature="e#114360#114361#0" expanded="false" />
+            <element signature="e#115506#115507#0" expanded="false" />
+            <element signature="e#115560#115561#0" expanded="false" />
+            <element signature="e#116474#116475#0" expanded="false" />
+            <element signature="e#116513#116514#0" expanded="false" />
+            <element signature="e#116906#116907#0" expanded="false" />
+            <element signature="e#116949#116950#0" expanded="false" />
+            <element signature="e#117784#117785#0" expanded="false" />
+            <element signature="e#117826#117827#0" expanded="false" />
+            <element signature="e#118261#118262#0" expanded="false" />
+            <element signature="e#118300#118301#0" expanded="false" />
+            <element signature="e#118742#118743#0" expanded="false" />
+            <element signature="e#118782#118783#0" expanded="false" />
+            <element signature="e#119232#119233#0" expanded="false" />
+            <element signature="e#119273#119274#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="6" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#7799#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#2749#2750#0" expanded="false" />
+            <element signature="e#2800#2801#0" expanded="false" />
+            <element signature="e#3877#3878#0" expanded="false" />
+            <element signature="e#3923#3924#0" expanded="false" />
+            <element signature="e#4363#4364#0" expanded="false" />
+            <element signature="e#4403#4404#0" expanded="false" />
+            <element signature="e#4977#4978#0" expanded="false" />
+            <element signature="e#5040#5041#0" expanded="false" />
+            <element signature="e#5923#5924#0" expanded="false" />
+            <element signature="e#5977#5978#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/BitSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="234" column="59" selection-start-line="234" selection-start-column="59" selection-end-line="234" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#39154#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3270#3271#0" expanded="false" />
+            <element signature="e#3326#3327#0" expanded="false" />
+            <element signature="e#4982#4983#0" expanded="false" />
+            <element signature="e#5038#5039#0" expanded="false" />
+            <element signature="e#7644#7645#0" expanded="false" />
+            <element signature="e#7705#7706#0" expanded="false" />
+            <element signature="e#10462#10463#0" expanded="false" />
+            <element signature="e#10517#10518#0" expanded="false" />
+            <element signature="e#28503#28504#0" expanded="false" />
+            <element signature="e#28541#28542#0" expanded="false" />
+            <element signature="e#34273#34274#0" expanded="false" />
+            <element signature="e#34324#34325#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoreJava.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23041475">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/MBean/StandardAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#449#450#0" expanded="false" />
+            <element signature="e#483#484#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="7" selection-start-line="111" selection-start-column="7" selection-end-line="111" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#42430#0" expanded="false" />
+            <element signature="e#9376#9377#0" expanded="false" />
+            <element signature="e#9403#9404#0" expanded="false" />
+            <element signature="e#9585#9586#0" expanded="false" />
+            <element signature="e#9617#9618#0" expanded="false" />
+            <element signature="e#10094#10095#0" expanded="false" />
+            <element signature="e#10132#10133#0" expanded="false" />
+            <element signature="e#12774#12775#0" expanded="false" />
+            <element signature="e#12829#12830#0" expanded="false" />
+            <element signature="e#14647#14648#0" expanded="false" />
+            <element signature="e#14692#14693#0" expanded="false" />
+            <element signature="e#23782#23783#0" expanded="false" />
+            <element signature="e#23836#23837#0" expanded="false" />
+            <element signature="e#24679#24680#0" expanded="false" />
+            <element signature="e#24723#24724#0" expanded="false" />
+            <element signature="e#25680#25681#0" expanded="false" />
+            <element signature="e#25723#25724#0" expanded="false" />
+            <element signature="e#29510#29511#0" expanded="false" />
+            <element signature="e#29547#29548#0" expanded="false" />
+            <element signature="e#29847#29848#0" expanded="false" />
+            <element signature="e#29879#29880#0" expanded="false" />
+            <element signature="e#30204#30205#0" expanded="false" />
+            <element signature="e#30249#30250#0" expanded="false" />
+            <element signature="e#31610#31611#0" expanded="false" />
+            <element signature="e#31652#31653#0" expanded="false" />
+            <element signature="e#31686#31687#0" expanded="false" />
+            <element signature="e#31723#31724#0" expanded="false" />
+            <element signature="e#31761#31762#0" expanded="false" />
+            <element signature="e#31802#31803#0" expanded="false" />
+            <element signature="e#37291#37292#0" expanded="false" />
+            <element signature="e#37342#37343#0" expanded="false" />
+            <element signature="e#37784#37785#0" expanded="false" />
+            <element signature="e#37829#37830#0" expanded="false" />
+            <element signature="e#38234#38235#0" expanded="false" />
+            <element signature="e#38308#38309#0" expanded="false" />
+            <element signature="e#38948#38949#0" expanded="false" />
+            <element signature="e#39006#39007#0" expanded="false" />
+            <element signature="e#39627#39628#0" expanded="false" />
+            <element signature="e#39680#39681#0" expanded="false" />
+            <element signature="e#39726#39727#0" expanded="false" />
+            <element signature="e#39783#39784#0" expanded="false" />
+            <element signature="e#42175#42176#0" expanded="false" />
+            <element signature="e#42242#42243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/MBean/CarMBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="18" selection-start-line="80" selection-start-column="18" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26975#0" expanded="false" />
+            <element signature="e#4449#4450#0" expanded="false" />
+            <element signature="e#4506#4507#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5047#5048#0" expanded="false" />
+            <element signature="e#5343#5344#0" expanded="false" />
+            <element signature="e#5400#5401#0" expanded="false" />
+            <element signature="e#7627#7628#0" expanded="false" />
+            <element signature="e#7665#7666#0" expanded="false" />
+            <element signature="e#9661#9662#0" expanded="false" />
+            <element signature="e#9693#9694#0" expanded="false" />
+            <element signature="e#9883#9884#0" expanded="false" />
+            <element signature="e#9921#9922#0" expanded="false" />
+            <element signature="e#11802#11803#0" expanded="false" />
+            <element signature="e#11849#11850#0" expanded="false" />
+            <element signature="e#13024#13025#0" expanded="false" />
+            <element signature="e#13062#13063#0" expanded="false" />
+            <element signature="e#13102#13103#0" expanded="false" />
+            <element signature="e#13144#13145#0" expanded="false" />
+            <element signature="e#13579#13580#0" expanded="false" />
+            <element signature="e#13616#13617#0" expanded="false" />
+            <element signature="e#13654#13655#0" expanded="false" />
+            <element signature="e#13693#13694#0" expanded="false" />
+            <element signature="e#22189#22190#0" expanded="false" />
+            <element signature="e#22245#22246#0" expanded="false" />
+            <element signature="e#24057#24058#0" expanded="false" />
+            <element signature="e#24095#24096#0" expanded="false" />
+            <element signature="e#24466#24467#0" expanded="false" />
+            <element signature="e#24503#24504#0" expanded="false" />
+            <element signature="e#24786#24787#0" expanded="false" />
+            <element signature="e#24843#24844#0" expanded="false" />
+            <element signature="e#25077#25078#0" expanded="false" />
+            <element signature="e#25136#25137#0" expanded="false" />
+            <element signature="e#25376#25377#0" expanded="false" />
+            <element signature="e#25437#25438#0" expanded="false" />
+            <element signature="e#25479#25480#0" expanded="false" />
+            <element signature="e#25544#25545#0" expanded="false" />
+            <element signature="e#25734#25735#0" expanded="false" />
+            <element signature="e#25774#25775#0" expanded="false" />
+            <element signature="e#26001#26002#0" expanded="false" />
+            <element signature="e#26063#26064#0" expanded="false" />
+            <element signature="e#26436#26437#0" expanded="false" />
+            <element signature="e#26490#26491#0" expanded="false" />
+            <element signature="e#26792#26793#0" expanded="false" />
+            <element signature="e#26839#26840#0" expanded="false" />
+            <element signature="e#26897#26898#0" expanded="false" />
+            <element signature="e#26971#26972#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="146" column="75" selection-start-line="146" selection-start-column="75" selection-end-line="146" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#21226#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/MBean/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#318#319#0" expanded="false" />
+            <element signature="e#346#347#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#436#437#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#541#542#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/EnumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="60" selection-start-line="29" selection-start-column="60" selection-end-line="29" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding>
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#406#407#0" expanded="false" />
+            <element signature="e#445#446#0" expanded="false" />
+            <element signature="e#480#481#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/jre/lib/rt.jar!/sun/reflect/Reflection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch14/thread/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6034484">
+          <caret line="589" column="37" selection-start-line="589" selection-start-column="37" selection-end-line="589" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="848" column="26" selection-start-line="848" selection-start-column="26" selection-end-line="848" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1885" column="31" selection-start-line="1885" selection-start-column="31" selection-end-line="1885" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/UnsatisfiedLinkError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/Double.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/reflect/Modifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="61" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/ObjectAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/MethodPointerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#676#677#0" expanded="false" />
+            <element signature="e#704#705#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="490" column="46" selection-start-line="490" selection-start-column="40" selection-end-line="490" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667">
+          <caret line="480" column="19" selection-start-line="480" selection-start-column="19" selection-end-line="480" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="466" column="26" selection-start-line="466" selection-start-column="26" selection-end-line="466" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="51" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/ObjectAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/Moveable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.620229">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33261803">
+          <caret line="21" column="69" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#1413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/lang/Cloneable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1360#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#993#994#0" expanded="false" />
+            <element signature="e#1037#1038#0" expanded="false" />
+            <element signature="e#1075#1076#0" expanded="false" />
+            <element signature="e#1753#1754#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/EmployeeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/jre/lib/rt.jar!/sun/awt/HToolkit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40120968">
+          <caret line="307" column="28" selection-start-line="307" selection-start-column="28" selection-end-line="307" selection-end-column="28" />
+          <folding>
+            <element signature="e#9413#9414#0" expanded="true" />
+            <element signature="e#9448#9449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/awt/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6183206">
+          <caret line="871" column="49" selection-start-line="871" selection-start-column="49" selection-end-line="871" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/Powered.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/TimePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/TimePrinterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/InnerClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/CloneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/CopyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch5/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="12" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/ch6/TalkingClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/Days.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.7/src.zip!/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="351" column="16" selection-start-line="351" selection-start-column="16" selection-end-line="351" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/InsertHolidayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="27" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1397#1403#0" expanded="true" />
+            <element signature="e#4150#4156#0" expanded="true" />
+            <element signature="e#5451#5457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/holiday.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-33.57143">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/corejava/Holiday/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="41" column="62" selection-start-line="41" selection-start-column="62" selection-end-line="41" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#2609#2615#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
