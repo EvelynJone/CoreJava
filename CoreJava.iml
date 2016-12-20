@@ -7,5 +7,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jsoup-1.8.3" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.35" level="project" />
+    <orderEntry type="library" name="json-20140107" level="project" />
+    <orderEntry type="library" name="json-lib-2.3-jdk15" level="project" />
+    <orderEntry type="library" name="htmlunit-2.14" level="project" />
+    <orderEntry type="library" name="jackson-databind-2.4.6" level="project" />
+    <orderEntry type="library" name="slf4j-api-1.7.7" level="project" />
+    <orderEntry type="library" name="jackson-annotations-2.4.0" level="project" />
+    <orderEntry type="library" name="jackson-core-2.4.6" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.3.2" level="project" />
   </component>
 </module>

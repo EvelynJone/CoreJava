@@ -15,7 +15,7 @@ import java.util.Date;
 
 
 
-public class holiday {
+public class holidays {
 
     /**
 
@@ -33,7 +33,7 @@ public class holiday {
 
     public static String request( String httpArg) {
 
-        String httpUrl="http://apis.baidu.com/xiaogg/holiday/holiday";
+        String httpUrl="http://apis.baidu.com/xiaogg/holidays/holidays";
 
         BufferedReader reader = null;
 

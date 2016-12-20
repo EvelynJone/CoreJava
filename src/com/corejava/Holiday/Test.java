@@ -1,10 +1,5 @@
 package com.corejava.Holiday;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.*;
 
 /**
@@ -22,13 +17,15 @@ public class Test {
         try {
             Date start = DateTimeUtil.parse(year+"0101","yyyyMMdd");
             Date end = DateTimeUtil.parse(year+"1231","yyyyMMdd");
-            List<Date> dates = InsertHolidayUtil.dateSplit(start,end);
+            List<Date> dates = InsertHolidayUtil2.dateSplit(start,end);
             for (Date date : dates) {
                 //检查具体日期是否为节假日，工作日对应结果为 0, 休息日对应结果为 1, 节假日对应的结果为 2
-                String result = sendHttp("http://www.easybots.cn/api/holiday.php?d="+DateTimeUtil.format(date,"yyyyMMdd"), null, "utf-8");
+                String result = HttpUtil.sendHttp("http://www.easybots.cn/api/holidays.php?d="+DateTimeUtil.format(date,"yyyyMMdd"), "utf-8");
                 result = replaceStr(result, new String[]{"{", "}", "\""});
                 String[] results = result.split(":");
+
                 System.out.println(Arrays.toString(results));
+                System.out.println(results[1].equals("0") ? "0" : "1");
                 System.out.println(getMomo(results[1]));
             }
         } catch (Exception e) {
@@ -53,8 +50,9 @@ public class Test {
         return dest;
     }
 
+/*
 
-    public static String sendHttp(String url, String xmlStr, String readerEncoding) throws Exception {
+    public static String sendHttp(String url,String readerEncoding) throws Exception {
         StringBuffer retu = new StringBuffer("");
         URL httpUrl = new URL(url);
         HttpURLConnection con = (HttpURLConnection)httpUrl.openConnection();
@@ -79,5 +77,6 @@ public class Test {
         con.disconnect();
         return retu.toString();
     }
+*/
 
 }

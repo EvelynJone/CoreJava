@@ -1,18 +1,48 @@
 package com.corejava.Holiday;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
-
+import java.util.UUID;
+/**
+ * 将一年内的所有假日插入到假日表里
+ * @author ch
+ * @time 2016-1-15 下午6:06:11
+ */
 public class InsertHolidayUtil {
-  public static void main(String[] args) throws Exception {
+  public static void main(String[] args){
+    //驱动程序名
+     String driver = "com.mysql.jdbc.Driver"; 
+     //要插入的数据库，表
+     String url = "jdbc:mysql://127.0.0.1:3306/xx_web?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull";
+     String user = "root"; 
+     String password = "root";
+     try {    
+               //加载驱动程序
+               Class.forName(driver);  
+               //连续MySQL 数据库
+               Connection conn = DriverManager.getConnection(url, user, password);
+               if(!conn.isClosed())
+               System.out.println("Succeeded connecting to the Database!");
+               //statement用来执行SQL语句
+               Statement statement = conn.createStatement();
+               
                SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
                java.util.Date start = sdf.parse("2016-01-01");//开始时间
                java.util.Date end = sdf.parse("2016-12-31");//结束时间
+        /* for (Date days : InsertHolidayUtil2.get()) {
+             String insertSql = "INSERT INTO fn_all_holiday (id,title,holiday_date) VALUES('"+UUID.randomUUID()+"',"+"'周末','"+sdf.format(days)+"')";
+             statement.executeUpdate(insertSql);
+         }*/
                List<Date> lists = dateSplit(start, end);
-               List<Date> holidays = new ArrayList<>();
+               
                //-------------------插入周末时间---------------
                if (!lists.isEmpty()) {
                    for (Date date : lists) {
@@ -21,86 +51,98 @@ public class InsertHolidayUtil {
                        if(cal.get(Calendar.DAY_OF_WEEK)==Calendar.SATURDAY||cal.get(Calendar.DAY_OF_WEEK)==Calendar.SUNDAY)
                        {
                     	   System.out.println("插入日期:" + sdf.format(date) + ",周末");
-                    	  holidays.add(cal.getTime());
+                    	   String insertSql = "INSERT INTO fn_all_holiday (id,title,holiday_date) VALUES('"+UUID.randomUUID()+"',"+"'周末','"+sdf.format(date)+"')";
+                    	   statement.executeUpdate(insertSql);
                        }
                    }
-                   System.out.println("============================weekend size: " + lists.size());
                }
                
                //---------------插入节假日时间------------------
-               List<Days> holidays1 = new ArrayList<Days>();
-               holidays1.add(new Days("元旦", sdf.parse("2016-01-01")));
-               holidays1.add(new Days("元旦", sdf.parse("2016-01-02")));
-               holidays1.add(new Days("元旦", sdf.parse("2016-01-03")));
-
-               holidays1.add(new Days("春节", sdf.parse("2016-02-07")));
-               holidays1.add(new Days("春节", sdf.parse("2016-02-08")));
-               holidays1.add(new Days("春节", sdf.parse("2016-02-09")));
-               holidays1.add(new Days("春节", sdf.parse("2016-02-10")));
-               holidays1.add(new Days("春节", sdf.parse("2016-02-11")));
-               holidays1.add(new Days("春节", sdf.parse("2016-02-12")));
-               holidays1.add(new Days("春节", sdf.parse("2016-02-13")));
-
-               holidays1.add(new Days("清明节", sdf.parse("2016-04-02")));
-               holidays1.add(new Days("清明节", sdf.parse("2016-04-03")));
-               holidays1.add(new Days("清明节", sdf.parse("2016-04-04")));
-
-               holidays1.add(new Days("劳动节", sdf.parse("2016-04-30")));
-               holidays1.add(new Days("劳动节", sdf.parse("2016-05-01")));
-               holidays1.add(new Days("劳动节", sdf.parse("2016-05-02")));
-
-               holidays1.add(new Days("端午节", sdf.parse("2016-06-09")));
-               holidays1.add(new Days("端午节", sdf.parse("2016-06-10")));
-               holidays1.add(new Days("端午节", sdf.parse("2016-06-11")));
-
-               holidays1.add(new Days("中秋节", sdf.parse("2016-09-15")));
-               holidays1.add(new Days("中秋节", sdf.parse("2016-09-16")));
-               holidays1.add(new Days("中秋节", sdf.parse("2016-09-17")));
-
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-01")));
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-02")));
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-03")));
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-04")));
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-05")));
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-06")));
-               holidays1.add(new Days("国庆节", sdf.parse("2016-10-07")));
-      int count = 0;
-               for(Days day:holidays1) {
+               List<Days> holidays = new ArrayList<Days>();
+               holidays.add(new Days(UUID.randomUUID().toString(),"元旦", sdf.parse("2016-01-01")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"元旦", sdf.parse("2016-01-02")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"元旦", sdf.parse("2016-01-03")));
+               
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-07")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-08")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-09")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-10")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-11")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-12")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"春节", sdf.parse("2016-02-13")));
+               
+               holidays.add(new Days(UUID.randomUUID().toString(),"清明节", sdf.parse("2016-04-02")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"清明节", sdf.parse("2016-04-03")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"清明节", sdf.parse("2016-04-04")));
+               
+               holidays.add(new Days(UUID.randomUUID().toString(),"劳动节", sdf.parse("2016-04-30")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"劳动节", sdf.parse("2016-05-01")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"劳动节", sdf.parse("2016-05-02")));
+               
+               holidays.add(new Days(UUID.randomUUID().toString(),"端午节", sdf.parse("2016-06-09")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"端午节", sdf.parse("2016-06-10")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"端午节", sdf.parse("2016-06-11")));
+               
+               holidays.add(new Days(UUID.randomUUID().toString(),"中秋节", sdf.parse("2016-09-15")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"中秋节", sdf.parse("2016-09-16")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"中秋节", sdf.parse("2016-09-17")));
+               
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-01")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-02")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-03")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-04")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-05")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-06")));
+               holidays.add(new Days(UUID.randomUUID().toString(),"国庆节", sdf.parse("2016-10-07")));
+               for(Days day:holidays) {
             	   //跟周末冲突的，不重复插入
-                   boolean hasRecord = holidays.contains(sdf.format(day.getDate())) ;
-
+                   String sql = "select count(1) as numbers from fn_all_holiday where holiday_date ='" + sdf.format(day.getDate()) + "'";
+                   //结果集
+                   ResultSet rs = statement.executeQuery(sql);
+                   boolean hasRecord = false;
+                   while(rs.next()) {
+                	   if(!"0".equals(rs.getString("numbers"))) {
+                		   hasRecord = true;
+                	   }
+                   }
                    if(!hasRecord) {
                 	   System.out.println("插入日期：" + sdf.format(day.getDate()) + "," + day.getTitle());
-                       count++;
-                	   holidays.add(day.getDate());
+                	   String insertSql = "INSERT INTO fn_all_holiday (id,title,holiday_date) VALUES('"+day.getId()+"',"+"'"+day.getTitle()+"','"+sdf.format(day.getDate())+"')";
+                	   statement.executeUpdate(insertSql);
                    }
                }
-      System.out.println("====================holiday size : " + count);
                
                
                //-------------- 剔除补班时间(周末需要补班的)---------------------
                List<Days> workDays = new ArrayList<Days>();
-               workDays.add(new Days("补班", sdf.parse("2016-02-06")));
-               workDays.add(new Days("补班", sdf.parse("2016-02-14")));
-               workDays.add(new Days("补班", sdf.parse("2016-05-02")));
-               workDays.add(new Days("补班", sdf.parse("2016-06-12")));
-               workDays.add(new Days("补班", sdf.parse("2016-09-18")));
-               workDays.add(new Days("补班", sdf.parse("2016-10-08")));
-               workDays.add(new Days("补班", sdf.parse("2016-10-09")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-02-06")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-02-14")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-05-02")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-06-12")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-09-18")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-10-08")));
+               workDays.add(new Days(UUID.randomUUID().toString(),"补班", sdf.parse("2016-10-09")));
                
                for(Days day:workDays) {
             	   System.out.println("剔除日期：" + sdf.format(day.getDate()) + "," + day.getTitle());
-            	  holidays.remove(day.getDate());
+            	   String delSql = "delete from fn_all_holiday where holiday_date ='" + sdf.format(day.getDate()) + "'";
+            	   statement.executeUpdate(delSql);
                }
-      System.out.println("=======================remove size : " + workDays);
-
-                for (Date date : holidays) {
-                    System.out.println("节假日" + sdf.format(date));
-                }
-      System.out.println("all :" + holidays.size());
+               conn.close();
+         }
+      catch(ClassNotFoundException e) { 
+        System.out.println("Sorry,can't find the Driver!");
+        e.printStackTrace();
+       }
+      catch(SQLException e) {
+        e.printStackTrace();
+      }
+      catch(Exception e) {  
+        e.printStackTrace(); 
+       }
   }
   
-  public static List<Date> dateSplit(java.util.Date start, Date end)
+  private static List<Date> dateSplit(java.util.Date start, Date end)
 	        throws Exception {
 	    if (!start.before(end))
 	        throw new Exception("开始时间应该在结束时间之后");
