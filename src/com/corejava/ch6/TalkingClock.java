@@ -35,6 +35,7 @@ public class TalkingClock {
         public void actionPerformed(ActionEvent e) {
             Date now = new Date();
             System.out.println("At the tone,the time is " + now);
+//            if (access$0(outer))
             if (beep)
                 Toolkit.getDefaultToolkit().beep();
         }
