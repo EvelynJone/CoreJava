@@ -87,7 +87,10 @@ public class MaintainData {
                 allDesc.addAll(returnResult);
             }
 
-            System.out.println(Arrays.toString(allDesc.toArray()));
+            for (Iterator<HolidayDesc> it = allDesc.iterator(); it.hasNext() ; ) {
+                System.out.println(it.next());
+            }
+            System.out.println();
         } catch (Exception e) {
             e.printStackTrace();
         }

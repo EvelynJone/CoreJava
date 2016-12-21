@@ -34,4 +34,12 @@ public class HolidayDesc implements Serializable {
     public int hashCode() {
         return Objects.hash(date,status);
     }
+
+    @Override
+    public String toString() {
+        return  getClass().getName() + "["
+                +" date=" + date
+                +" status=" + status
+                +"]";
+    }
 }
