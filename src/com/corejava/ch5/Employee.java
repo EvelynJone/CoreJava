@@ -19,6 +19,10 @@ public class Employee extends Person implements Comparable<Employee>,Cloneable{
     public Employee() {
     }
 
+    public Employee(String name) {
+        super(name);
+    }
+
     public Employee(String name, double salary) {
         super(name);
         this.salary = salary;
@@ -84,6 +88,6 @@ public class Employee extends Person implements Comparable<Employee>,Cloneable{
         return getClass().getName() + "["
                 +"name="+getName()
                 +",salary="+salary
-                +",hireDay="+hireDay;
+                +",hireDay="+hireDay+"]";
     }
 }

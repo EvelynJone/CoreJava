@@ -7,6 +7,14 @@ public class HolidayDesc implements Serializable {
     private String date;
     private String status;
 
+    public HolidayDesc() {
+    }
+
+    public HolidayDesc(String date, String status) {
+        this.date = date;
+        this.status = status;
+    }
+
     public String getDate() {
         return date;
     }
@@ -31,10 +39,11 @@ public class HolidayDesc implements Serializable {
         return Objects.equals(date,other.date) && Objects.equals(status,other.status);
     }
 
+   /* @Override
     public int hashCode() {
         return Objects.hash(date,status);
     }
-
+*/
     @Override
     public String toString() {
         return  getClass().getName() + "["
